@@ -182,6 +182,7 @@ return [
     */
 
     'aliases' => Facade::defaultAliases()->merge([
+        'Validator' => Illuminate\Support\Facades\Validator::class,
         // 'Example' => App\Facades\Example::class,
     ])->toArray(),
 
